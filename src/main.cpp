@@ -16,7 +16,7 @@
 
 KSEQ_INIT(gzFile, gzread)
 
-std::pair<int, std::list<std::pair<int, std::list<Mem> > > >  analyzeRead(std::list<Mem>& l_memb,
+std::pair<char, std::list<std::pair<int, std::list<Mem> > > >  analyzeRead(std::list<Mem>& l_memb,
                                                         const SplicingGraph sg,
                                                         const std::string& read,
                                                         const int& L,
